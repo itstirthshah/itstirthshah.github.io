@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirth Shah | Senior Flutter Developer & Mobile Architect</title>
+    <meta name="description" content="Portfolio of Tirth Shah, a Senior Flutter Developer with 6 years of experience building high-performance cross-platform mobile apps.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+    <div class="custom-cursor-outline" id="cursor-outline"></div>
+
+    <!-- Background Canvas for Interactive Particles -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">TS<span>.dev</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h5 class="sub-greeting fade-in">Hello, World! I am</h5>
+                <h1 class="hero-title fade-in">Tirth Shah</h1>
+                <h2 class="hero-subtitle fade-in">
+                    Senior <span class="typing-text"></span>
+                </h2>
+                <p class="hero-desc fade-in">
+                    Crafting premium, high-performance, and pixel-perfect mobile applications with 6+ years of expertise in Flutter & Dart. Transforming complex ideas into fluid user experiences.
+                </p>
+                <div class="hero-cta fade-in">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="glow-sphere"></div>
+                <div class="tech-stack-ring">
+                    <div class="tech-icon-holder flutter" title="Flutter">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 166 202" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M166 43.1L122.9 0 0 122.9l43.1 43.1L166 43.1z" fill="#40C4FF"/>
+                                <path d="M122.9 83L43.1 162.8l43 43 118.8-118.8-38.9-44z" fill="#0288D1"/>
+                                <path d="M122.9 83L79.8 126.1l43.1 43.1 43.1-43.1L122.9 83z" fill="#01579B"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="tech-icon-holder dart" title="Dart">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.3 2.3c-.4-.4-1-.4-1.4 0L2.3 10.9c-.4.4-.4 1 0 1.4l8.6 8.6c.4.4 1 .4 1.4 0l8.6-8.6c.4-.4.4-1 0-1.4L12.3 2.3z" fill="#00B4AB"/>
+                                <path d="M11.6 19.5v-15l-7.5 7.5 7.5 7.5z" fill="#00E6FF"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="tech-icon-holder firebase" title="Firebase"><div class="tech-icon"><i class="fa-solid fa-fire"></i></div></div>
+                    <div class="tech-icon-holder git" title="Git"><div class="tech-icon"><i class="fa-brands fa-git-alt"></i></div></div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" aria-label="Scroll Down">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01. About Me</span>
+                    <h2 class="section-title">My Journey & Philosophy</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <p>
+                            With over <strong>6 years of dedicated experience</strong>, I specialize in architecting and developing robust, scalable mobile applications. My journey started with native platforms, but when Flutter emerged, I found my true passion: creating unified, high-fidelity experiences from a single codebase.
+                        </p>
+                        <p>
+                            I don't just write code; I craft digital interactions. I focus heavily on <strong>micro-interactions</strong>, <strong>high-performance rendering (60/120 FPS)</strong>, <strong>modular architecture (Clean Architecture, BLoC, Riverpod)</strong>, and robust testing suites to ensure bulletproof delivery.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-box">
+                                <span class="stat-number">6+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">30+</span>
+                                <span class="stat-label">Apps Published</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">99%</span>
+                                <span class="stat-label">Crash-Free Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-inner">
+                            <h3>Core Philosophy</h3>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> Clean Code & Solid Architecture</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Fluid & Dynamic UI/UX</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Native-grade Performance</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Developer Experience & CI/CD</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02. Expertise</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skills-category-card">
+                        <h3><i class="fa-solid fa-code"></i> Languages & Frameworks</h3>
+                        <div class="skills-list">
+                            <div class="skill-item"><span class="skill-name">Flutter & Dart</span><span class="skill-level">Expert</span></div>
+                            <div class="skill-item"><span class="skill-name">Swift / Kotlin</span><span class="skill-level">Advanced</span></div>
+                            <div class="skill-item"><span class="skill-name">JavaScript/TypeScript</span><span class="skill-level">Intermediate</span></div>
+                            <div class="skill-item"><span class="skill-name">Python / Node.js</span><span class="skill-level">Intermediate</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category-card">
+                        <h3><i class="fa-solid fa-layer-group"></i> Architecture & State</h3>
+                        <div class="skills-list">
+                            <div class="skill-item"><span class="skill-name">BLoC / Riverpod / Provider</span><span class="skill-level">Expert</span></div>
+                            <div class="skill-item"><span class="skill-name">Clean Architecture / DDD</span><span class="skill-level">Expert</span></div>
+                            <div class="skill-item"><span class="skill-name">Offline Sync / Hive / SQLite</span><span class="skill-level">Advanced</span></div>
+                            <div class="skill-item"><span class="skill-name">Rest APIs & WebSockets</span><span class="skill-level">Expert</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category-card">
+                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Backend & Tooling</h3>
+                        <div class="skills-list">
+                            <div class="skill-item"><span class="skill-name">Firebase / Supabase</span><span class="skill-level">Expert</span></div>
+                            <div class="skill-item"><span class="skill-name">CI/CD (Codemagic, GitHub Actions)</span><span class="skill-level">Advanced</span></div>
+                            <div class="skill-item"><span class="skill-name">App Store & Play Store Console</span><span class="skill-level">Expert</span></div>
+                            <div class="skill-item"><span class="skill-name">Docker & Cloud Functions</span><span class="skill-level">Intermediate</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03. Career</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h3>Lead Mobile Architect</h3>
+                            <h4>TechVantage Solutions</h4>
+                            <p>Architecting consumer-facing fintech & healthcare apps. Managed a team of 6 Flutter developers. Standardized internal state management and CI/CD pipelines, reducing time-to-market by 40%.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2023</span>
+                            <h3>Senior Flutter Engineer</h3>
+                            <h4>AppWave Studios</h4>
+                            <p>Developed complex micro-interaction heavy applications. Leveraged CustomPainter and Tickers to build custom animations, charting engines, and high-performance custom navigation flows.</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2020 - 2021</span>
+                            <h3>Mobile Application Developer</h3>
+                            <h4>PixelCraft Technologies</h4>
+                            <p>Spearheaded migration of legacy Native (Swift/Kotlin) projects to Flutter. Optimized app performance, local database caching, and custom plugin bridging (MethodChannels).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04. Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1: Word Puzzle -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="Project Link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                <a href="#" class="project-code" aria-label="Source Code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <div class="mockup-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="project-visual-placeholder word-puzzle">
+                                <i class="fa-solid fa-font"></i>
+                                <span>Word Puzzle</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Word Puzzle</h3>
+                            <p>An addictive word-search and vocabulary game built on Flutter. Features fluid swipe gesture detection, dictionary API integrations, and local caching using Hive DB.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Hive DB</span>
+                                <span>APIs</span>
+                                <span>Gestures</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Memory Flash -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="Project Link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                <a href="#" class="project-code" aria-label="Source Code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <div class="mockup-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="project-visual-placeholder memory-flash">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Memory Flash</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Memory Flash</h3>
+                            <p>High-performance card-matching reflex game using Dart Ticker and CustomPainter for 60 FPS transitions. Leverages local database high scores and audio engine integrations.</p>
+                            <div class="project-tags">
+                                <span>Dart</span>
+                                <span>CustomPainter</span>
+                                <span>Tickers</span>
+                                <span>Audios</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Color Stack -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="Project Link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                <a href="#" class="project-code" aria-label="Source Code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <div class="mockup-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="project-visual-placeholder color-stack">
+                                <i class="fa-solid fa-layer-group"></i>
+                                <span>Color Stack</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Color Stack</h3>
+                            <p>A physics-based stacking game powered by the Flame game engine. Designed with procedural block slicing, dynamic color themes, and integrated Google AdMob rewards.</p>
+                            <div class="project-tags">
+                                <span>Flame</span>
+                                <span>Forge2D</span>
+                                <span>AdMob</span>
+                                <span>Physics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Find the Match -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="Project Link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                <a href="#" class="project-code" aria-label="Source Code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <div class="mockup-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="project-visual-placeholder find-match">
+                                <i class="fa-solid fa-grip"></i>
+                                <span>Find the Match</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Find the Match</h3>
+                            <p>Fast-paced multiplayer matching game featuring real-time WebSockets synchronization via Firebase, particle visual effects, and a secure Google Sign-in flow.</p>
+                            <div class="project-tags">
+                                <span>Firebase</span>
+                                <span>WebSockets</span>
+                                <span>Riverpod</span>
+                                <span>Animations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Tirth Shah. All rights reserved.</p>
+            <p class="footer-design">Designed & Built with <i class="fa-solid fa-heart"></i> & Flutter Dev branding.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
